@@ -15,5 +15,9 @@ The first two algoritms are very similar, but the 2nd converges faster:
 
 ![](image2.png)
 
+![](image3.png)
+
+The first algorithm continues to change the value of the weights until w*x >= y or w*x <= y is met for all x. The 2nd algorithm optimizes only the values that need to be optimized.
+
 
 
