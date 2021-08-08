@@ -13,3 +13,7 @@ The [dataset](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.htm
 
 The first two algoritms are very similar, but the 2nd converges faster:
 
+![](image2.png)
+
+![](image3.png)
+
