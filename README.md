@@ -24,7 +24,9 @@ The 3rd algorithm seems to take more steps than the other two:
 
 We used different types of losses for calculating the convergence, L1-SVM and L2-SVM. Here are the results, in order by the loss, algorithm, the weights, number of steps, and time in seconds.
 
-![](image5.png) ![](image6.png)
+![](image5.png) 
+
+![](image6.png)
 
 
 
