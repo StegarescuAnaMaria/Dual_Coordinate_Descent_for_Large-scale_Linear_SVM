@@ -15,5 +15,5 @@ The first two algoritms are very similar, but the 2nd converges faster:
 
 ![](image2.png)
 
-![](image3.png) 
+
 
