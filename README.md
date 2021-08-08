@@ -22,6 +22,12 @@ The 3rd algorithm seems to take more steps than the other two:
 
 ![](image4.png)
 
+In case the data cannot be completely separable, a small error is allowed. A penalisation variable, C, is introduced. The larger the value of C, the harder the algorithms are trying to separate the data, without paying attention to keeping the distance between two points of separate classes maximum. The lower the value of C, the more outliers are allowed whilst trying to maximize said distance. 
+
+![](image7.png)
+
+![](image8.png)
+
 We used different types of losses for calculating the convergence, L1-SVM and L2-SVM. Here are the results, in order by the loss, algorithm, the weights, number of steps, and time in seconds.
 
 ![](image5.png) 
