@@ -10,3 +10,6 @@ The [dataset](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.htm
 ![](image1.png)
 
 (the bias (b) from the above graphs will not be taken into consideration)
+
+The first two algoritms are very similar, but the 2nd converges faster:
+
