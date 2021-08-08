@@ -13,26 +13,26 @@ The [dataset](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.htm
 
 The first two algoritms are very similar, but the 2nd converges faster:
 
-![](image2.png)
-![](image3.png)
+![](images/image2.png)
+![](images/image3.png)
 
 The first algorithm continues to change the value of the weights until w*x >= y or w*x <= y is met for all x. The 2nd algorithm optimizes only the values that need to be optimized.
 
 The 3rd algorithm seems to take more steps than the other two:
 
-![](image4.png)
+![](images/image4.png)
 
 In case the data cannot be completely separable, a small error is allowed. A penalisation variable, C, is introduced. The larger the value of C, the harder the algorithms are trying to separate the data, without paying attention to keeping the distance between two points of separate classes maximum. The lower the value of C, the more outliers are allowed whilst trying to maximize said distance. 
 
-![](image7.png)
+![](images/image7.png)
 
-![](image8.png)
+![](images/image8.png)
 
 We used different types of losses for calculating the convergence, L1-SVM and L2-SVM. Here are the results, in order by the loss, algorithm, the weights, number of steps, and time in seconds.
 
-![](image5.png) 
+![](images/image5.png) 
 
-![](image6.png)
+![](images/image6.png)
 
 
 
